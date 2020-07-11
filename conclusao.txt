@@ -1,0 +1,44 @@
+MotaVict@MOTAVICT3 MINGW64 ~/posgrad/contver/trabalhofinal/exercicio (master)
+$ git log
+commit a8a31e93dda2cf5c1f57aa52cc14c8ea032d0fe7 (HEAD -> master, origin/master, origin/HEAD)
+Author: Victor Diógenes Mota <victor.mota@hp.com>
+Date:   Sat Jul 11 17:13:55 2020 -0300
+
+    Atualizando o README.txt
+
+commit 76f25badb7feec75c42e1627735ea367f656c7b1
+Author: Victor Diógenes Mota <victor.mota@hp.com>
+Date:   Sat Jul 11 17:08:41 2020 -0300
+
+    Adicionando o submodulo module
+
+commit e623b128f9e953c71efdd73aa397047c37daef17
+Author: Victor Diógenes Mota <victor.mota@hp.com>
+Date:   Sat Jul 11 17:06:13 2020 -0300
+
+    Adicionando README.txt
+
+MotaVict@MOTAVICT3 MINGW64 ~/posgrad/contver/trabalhofinal/exercicio (master)
+$ cd module/
+
+MotaVict@MOTAVICT3 MINGW64 ~/posgrad/contver/trabalhofinal/exercicio/module ((d2798fc...))
+$ git log
+commit d2798fcef2b0983272f2edc9ddd2d12adf294b4e (HEAD, origin/master, origin/HEAD)
+Author: Victor Diógenes Mota <victor.mota@hp.com>
+Date:   Sat Jul 11 17:24:02 2020 -0300
+
+    Adicionando conclusao.txt
+
+commit 33208f4e7d3cd5ab7aa6c5930d8a6055fe145bca (master)
+Author: Victor Diógenes Mota <victor.mota@hp.com>
+Date:   Sat Jul 11 16:45:30 2020 -0300
+
+    Adicionando comand2.lib
+
+commit db32697a1a37298b8044e9c2c8e2447bc89591e5
+Author: Victor Diógenes Mota <victor.mota@hp.com>
+Date:   Sat Jul 11 16:45:07 2020 -0300
+
+    Adicionando comand1.lib
+
+Usando submodules permite utilizar um repositorio git como um subdiretorio de outro repositorio git. Permite que você tenha dois historicos separados para cada repositorio, seja o principal como seja o do submodulo.
